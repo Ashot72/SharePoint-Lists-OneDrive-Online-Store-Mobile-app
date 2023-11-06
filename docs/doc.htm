@@ -1,0 +1,260 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:#0563C1;
+	text-decoration:underline;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link="#0563C1" vlink="#954F72" style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:20.0pt;line-height:107%'>React Native Mobile Online Store
+based on SharePoint Lists and OneDrive</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:20.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Video Link: <a
+href="https://youtu.be/dVlAGQlG7Ek" target="_blank">https://youtu.be/dVlAGQlG7Ek</a>
+</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>GitHub
+Repository: <a
+href="https://github.com/Ashot72/SharePoint-Lists-OneDrive-Online-Store-Mobile-app"
+target="_blank">https://github.com/Ashot72/SharePoint-Lists-OneDrive-Online-Store-Mobile-app</a></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>This is a
+React Native mobile online store application that is based on SharePoint lists
+for storing data and OneDrive for hosting online store pictures.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>To allow the
+application to interact with the Microsoft server, it needs to be registered through
+Microsoft Registration Portal.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1088 height=479 id="Picture 6"
+src="doc_files/image001.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 1</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>I registered
+<i>MS Auth</i> app. </span><span style='font-size:14.0pt;line-height:107%;
+color:black'>Once the app is registered, an Application ID will be generated.</span></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1006 height=694 id="Picture 3"
+src="doc_files/image002.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 2</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>To get the
+authentication to work on React Native without using other third-party
+libraries, we will utilize the WebView component and specify the Redirect URI
+inside the app. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Consequently,
+we will need a secret key for communicating with the Microsoft Authentication
+service through the web interface.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1104 height=723 id="Picture 4"
+src="doc_files/image003.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 3</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We created the
+secret.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=926 height=186 id="Picture 7"
+src="doc_files/image004.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 4</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>The
+Application ID and secret are specified in the .env file.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1249 height=632 id="Picture 8"
+src="doc_files/image005.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 5</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>The final
+thing that we should do with configuration is adding Microsoft Graph delegated
+permissions.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1379 height=637 id="Picture 15"
+src="doc_files/image006.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 6</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We should
+add the Sites.Manage.All permission to create lists from inside the app and
+Files.ReadWrite.All to access the OneDrive files.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=346 height=781 id="Picture 10"
+src="doc_files/image007.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 7</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>When you run
+the app and specify the <i>Relative Site URL</i> for the first time, the Online
+Store lists are going to be generated.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1142 height=804 id="Picture 11"
+src="doc_files/image008.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 8</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Four lists
+are generated.</span></p>
+
+<p class=MsoNormal><img border=0 width=1264 height=310 id="Picture 13"
+src="doc_files/image009.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 9</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In the app,
+we make use of the <i>Lookup</i> column in a SharePoint list, which is a type
+of column that allows you to create a relationship between two lists.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1023 height=836 id="Picture 14"
+src="doc_files/image010.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 10</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In the app,
+we renew the access token from the refresh token, which basically means that
+the logged-in user will not be logged out at any point unless they manually
+prefer to log out.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1196 height=651 id="Picture 16"
+src="doc_files/image011.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 11</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We created
+Online Store Category folders in OneDrive at a site level.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1076 height=589 id="Picture 17"
+src="doc_files/image012.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 12</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We keep both
+the category and product pictures in those folders.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1146 height=819 id="Picture 18"
+src="doc_files/image013.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 13</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>The app
+makes use of React Query, which is a data-fetching and state management library
+for React applications. It simplifies fetching, caching,</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>and updating
+data <a href="https://tanstack.com/query/v4/">https://tanstack.com/query/v4/</a>. 
+I have built a basic forum based on it <a
+href="https://github.com/Ashot72/React-Query-4-Basic-Forum" target="_blank">https://github.com/Ashot72/React-Query-4-Basic-Forum</a></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1005 height=677 id="Picture 19"
+src="doc_files/image014.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 14</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%;color:black'>We
+use EAS Build server to build both development and preview builds.</span></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%;color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=916 height=416 id="Picture 20"
+src="doc_files/image015.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%;color:black'>Figure
+15</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%;color:black'>Building
+both development and preview builds.</span></span></p>
+
+<p class=MsoNormal><b><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>

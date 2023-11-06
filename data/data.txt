@@ -1,0 +1,109 @@
+Olive/Hemp Seed Oil
+
+   - name: 
+     description: Basil flavoured extra virgin olive oil. It's perfect for salads, tomato soup or as a dip with warm bread. Doesn't contain artificial flavours and colours.
+     price: $9.12
+     count: 28
+
+   - name: Olive oil "De Cecco Classico Extra Virgin" 0.5l
+     description: Extra virgin olive oil, classic. Olive oil is widely used in cookery, cosmetics, hygiene and manufacture of soap. This product is rich in vitamins B6, D3, K1, which contribute to the digestion of calcium. Olive oil is so harmless and beneficial, that practically there are no hard rules and restrictions on its use.
+     price: $9.98
+     count: 61
+
+   - name: Olive oil ''Olitalia Pomace'' 1l
+     description: Olive oil is widely used in cookery, cosmetics, hygiene and manufacture of soap. This product is rich in vitamins B6, D3, K1, which contribute to the digestion of calcium. Olive oil is so harmless and beneficial, that practically there are no hard rules and restrictions on its use.
+     price: $13.30
+     count: 31
+
+   - name: Olive oil "Monini Bio Extra Virgin" 0.5l
+     description: Unrefined olive oil of the highest quality. This oil is obtained directly from olives and by mechanical means. It's ideal for cooking and seasoning.
+     price: $13.98
+     count: 31
+
+   - name: Hemp seed oil "Golden Kings Extra Virgin" 0.35l
+     description: Unrefined and non-deodorized 100% natural vegetable oil from hemp seeds. This tasty and healthy oil imparts a subtle nutty flavor to many dishes. It is recommended for salads, vegetable dishes, cold and hot snacks.
+     price:  $20.63
+     count: 36
+
+   - name: Olive oil "Kalios Extra Virgin 03" 0.5l
+     description: Selected by top chef Amandine Chaignot, this top-ranked Extra virgin olive oil is made with Koroneïki purple olives, freshly harvested in January in Greece. This olive oil has light fruity flavor.
+     price: $24.63
+     count: 20
+
+   - name: Olive oil "Coopoliva" 0.5l
+     description: Olive oil is widely used in cookery, cosmetics, hygiene and manufacture of soap. This product is rich in vitamins B6, D3, K1, which contribute to the digestion of calcium. Olive oil is so harmless and beneficial, that practically there are no hard rules and restrictions on its use. Cholesterol free.
+     price: $8.63
+     count: 42
+
+   - name: Olive oil "Dante Extra Virgin" 0.75l
+     description: Unfiltered olive oil. This oil was born out of the years of experience and mastery of Olio Dante’s expert blend masters, who carefully select and blend the finest oils from the most important mills in the European Union. This oil doesn't go under any further processing or filtration.
+     price: $15.25
+     count: 1
+
+   - name: Olive oil "Ruffino Laudemio Extra Virgin" 500ml
+     description: Extra virgin oil from central Tuscany olives, produced according to strict regulations.
+     price: $41.38
+     count: 9
+
+   - name: Olive oil "Miterra Extra Virgin" 250ml
+     description: Extra virgin olive oil flavored with pepper is a delicious accompaniment to grilled meat, pizzas, tomato sauce and salad dressings.
+     price: $6.48
+     count: 73
+
+Butter, Margarine
+
+   - name: Butter "President" 200g, richness: 82%
+     description: Butter extra, richness: 82% Butter is a dairy product made by churning fresh or fermented milk cream. Butter consists of butterfat, milk proteins and water. It generally has a pale yellow color. Milk fat is beneficial to eyesight, skin, bowels, as well as it is recommended for nursing mams.
+     price: $4.23
+     count: 40
+
+   - name: Butter "Arla Lurpak" 200g, richness: 82%
+     description: Butter richness: 82% Butter is a dairy product made by churning fresh or fermented milk cream. Butter consists of butterfat, milk proteins and water. It generally has a pale yellow color. Milk fat is beneficial to eyesight, skin, bowels, as well as it is recommended for nursing mams.
+     price: $4.05
+     count: 259
+
+   - name: Butter "Valio Fin" 200g, richness: 79%
+     description: Butter richness: 79% Butter is a dairy product made by churning fresh or fermented milk cream. Butter consists of butterfat, milk proteins and water. It generally has a pale yellow color. Milk fat is beneficial to eyesight, skin, bowels, as well as it is recommended for nursing mams.
+     price: $2.95
+     count: 461
+
+   - name: Butter ''Anchor'' 200g, richness: 82.9%
+     description: Butter richness: 82.9% Butter is a dairy product made by churning fresh or fermented milk cream. Butter consists of butterfat, milk proteins and water. It generally has a pale yellow color. Milk fat is beneficial to eyesight, skin, bowels, as well as it is recommended for nursing mams.
+     price: $3.13
+     count: 361
+    
+   - name: Butter "Marianna" 180g, richness: 82.5%
+     description: Butter richness: 82.5% Butter is a dairy product made by churning fresh or fermented milk cream. Butter consists of butterfat, milk proteins and water. It generally has a pale yellow color. Milk fat is beneficial to eyesight, skin, bowels, as well as it is recommended for nursing mams.
+     price: $2.28
+     count: 60
+
+   - name: Butter "Mleczarnia" richness: 83%
+     description: Creamy butter, fat content: 83%.
+     price: $1.60
+     count: 27
+
+   - name: Butter "Valio" 200g , richness: 82%
+     description: Butter richness: 82% Butter is a dairy product made by churning fresh or fermented milk cream. Butter consists of butterfat, milk proteins and water. It generally has a pale yellow color. Milk fat is beneficial to eyesight, skin, bowels, as well as it is recommended for nursing mams.
+     price: $3.08
+     count: 774
+
+   - name: Butter "Mildar" 170g, richness: 82․5%
+     description: Unsalted sweet cream butter.
+     price: 2.45
+     count: 115
+
+Notebooks
+
+   - name: Samsung GalaxyBook 15.6 FHD i5-1135G7
+     description: Samsung notebook
+     price: $492
+     count: 3
+
+   - name Lenovo ideapad L340
+   - description: Gaming is all about making the right choices.
+     price: 838
+     count: 9
+   
+
+
+ 
