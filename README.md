@@ -2,6 +2,7 @@
 
 This is a React Native mobile online store application that is based on SharePoint lists for storing data and OneDrive for hosting online store pictures. The app makes use of [React Query](https://tanstack.com/query/v4/), which is a data-fetching and state management library for React applications. 
 
+The app does not include Stripe payments with React Native because it requires a server, such as Node.js, so the online store does not include real checkout functionality.
 
 To get started.
 ```
