@@ -21,4 +21,4 @@ To get started.
 Go to [React Native Mobile Online Store based on SharePoint Lists and OneDrive Video](https://youtu.be/dVlAGQlG7Ek
 ) page
 
-Go to [React Native Mobile Online Store based on SharePoint Lists and OneDrive Description](https://github.com/Ashot72/SharePoint-Lists-OneDrive-Online-Store-Mobile-app/doc.html) page
+Go to [React Native Mobile Online Store based on SharePoint Lists and OneDrive Description](https://github.com/Ashot72/SharePoint-Lists-OneDrive-Online-Store-Mobile-app/doc.htm) page
